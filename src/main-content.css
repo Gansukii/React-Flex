@@ -1,0 +1,17 @@
+.main-container{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    background-color: #004c4c;
+    color: #fff;
+    padding: 1rem;
+}

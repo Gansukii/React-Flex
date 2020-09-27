@@ -1,0 +1,14 @@
+.sideNav-container{
+    display: flex;
+    align-items: stretch;
+    width: 5rem;
+}
+
+.sideNav-ul{
+    display: flex;
+    flex-flow: column;
+    background-color: #7fffff;
+}
+ul li{
+    display: flex;
+}

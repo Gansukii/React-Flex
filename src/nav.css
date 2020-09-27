@@ -1,0 +1,27 @@
+.nav-container{
+    background-color: #00ffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    flex: auto;
+    text-align: center;
+    padding: .5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #004c4c;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: #00e5e5;
+}
+ul li:hover a{
+    color: #fff;
+}
