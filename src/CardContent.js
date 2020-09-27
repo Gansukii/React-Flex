@@ -15,4 +15,5 @@ function CardContent(props){
     )
 
 }
+
  export default CardContent
