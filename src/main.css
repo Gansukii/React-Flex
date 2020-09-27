@@ -1,0 +1,16 @@
+.mainContent{
+    background-color: black;
+    flex: 1;
+    /* display: flex */
+}
+
+.card{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #b2ffff;
+    width: 200px;
+    max-height: 250px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}

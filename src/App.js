@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from './Nav.js'
 import SideNav from './SideNav'
+import Card from './MainContent'
 import Footer from './Footer'
-import './main-content.css'
+import './contents.css'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navbar /> 
       <div className="main">
         <SideNav />
-        Main
+        <Card />  
       </div>
       <Footer />
     </div>

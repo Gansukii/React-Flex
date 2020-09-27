@@ -23,6 +23,16 @@ const sidenavData = [
         id: 5,
         value: "link 5",
         link: "#"
+    },
+    {
+        id: 6,
+        value: "link 6",
+        link: "#"
+    },
+    {
+        id: 7,
+        value: "link 7",
+        link: "#"
     }
 ]
 

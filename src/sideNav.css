@@ -1,14 +1,32 @@
 .sideNav-container{
+    margin: 0;
     display: flex;
     align-items: stretch;
-    width: 5rem;
+    width: 10rem;
+    z-index: 1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    -webkit-box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
 }
 
 .sideNav-ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
     display: flex;
     flex-flow: column;
-    background-color: #7fffff;
+    background-color: #00e5e5;
+    justify-content: space-evenly;
 }
-ul li{
+.sideNav-ul li{
     display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #19ffff;
+}
+.sideNav-ul li a{
+    color: black;
 }
