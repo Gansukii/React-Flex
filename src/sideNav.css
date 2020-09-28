@@ -4,11 +4,19 @@
     align-items: stretch;
     width: 10rem;
     z-index: 1;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     -webkit-box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
     box-shadow: 3px 0px 10px -6px rgba(0,0,0,0.75);
+}
+
+.sideNav-p{
+    padding: 1rem;
+    padding-bottom: 0;
+    color: rgb(51, 51, 51);
+    line-height: 1rem;
+    font-weight: 400;
 }
 
 .sideNav-ul{
